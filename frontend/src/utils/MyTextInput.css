@@ -1,0 +1,24 @@
+.custom_editable:focus-within {
+  border-width: 2px;
+  cursor: default;
+}
+
+.custom_editable::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  cursor: default;
+}
+
+.custom_editable::-webkit-scrollbar-track {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: default;
+}
+
+.custom_editable::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  cursor: default;
+  border: 6px solid #8b8b8b;
+}
