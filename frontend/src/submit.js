@@ -18,7 +18,7 @@ export const SubmitButton = () => {
 
       const res = await axios({
         method: "POST",
-        url: `${process.env.REACT_APP_BACKEND_URL}`,
+        url: `${process.env.REACT_APP_BACKEND_URL}pipelines/parse`,
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
